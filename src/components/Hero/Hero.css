@@ -1,6 +1,5 @@
 .hero-wrapper {
   color: white;
-  background-color: var(--black);
   position: relative;
   padding-bottom: 2rem;
 }
@@ -27,6 +26,10 @@
 
 /* left side */
 
+.hero-left {
+  top: -10%;
+}
+
 .hero-title {
   z-index: 1;
   position: relative;
@@ -44,7 +47,7 @@
   position: absolute;
   width: 4rem;
   height: 4rem;
-  right: 60%;
+  right: 20%;
   top: -12.5%;
   z-index: -1;
 }
@@ -58,7 +61,22 @@
   width: 100%;
 }
 
-.search-bar>input{
-    border:none;
-    outline: none;
+.search-bar > input {
+  border: none;
+  outline: none;
+}
+
+.stats {
+  width: 100%;
+  justify-content: space-between;
+}
+
+/* Targeting the no and + span */
+.stat > :nth-child(1) {
+  font-size: 2rem;
+}
+
+/* Targeting the + */
+.stat > :nth-child(1) > :last-child {
+  color: orange;
 }
