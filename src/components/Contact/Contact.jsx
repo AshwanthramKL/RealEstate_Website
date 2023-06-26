@@ -81,8 +81,6 @@ const Contact = () => {
                 <div className="flexCenter button">Message now</div>
               </div>
             </div>
-
-            
           </div>
         </div>
         {/* right side */}
